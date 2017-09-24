@@ -7,18 +7,18 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class Tela2 extends AppCompatActivity {
+public class Screen2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tela2);
+        setContentView(R.layout.activity_screen2);
 
         Button button2 = (Button) findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent intent = new Intent(Tela2.this, MainActivity.class);
+                //Intent intent = new Intent(Screen2.this, MainActivity.class);
                 Intent intent = getIntent();
                 if(intent != null) {
                     Bundle params = intent.getExtras();

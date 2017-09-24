@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Tela2.class);
+                Intent intent = new Intent(MainActivity.this, Screen2.class);
                 Bundle params = new Bundle();
                 params.putString("msg", "Hello!");
                 intent.putExtras(params);

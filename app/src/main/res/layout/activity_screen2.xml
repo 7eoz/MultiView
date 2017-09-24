@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.studies.sandrini.multiview.Tela2">
+    tools:context="com.studies.sandrini.multiview.Screen2">
 
     <TextView
         android:layout_width="wrap_content"
