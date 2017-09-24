@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Tela2.class);
                 Bundle params = new Bundle();
-                params.putString("msg", "Olá");
+                params.putString("msg", "Hello!");
                 intent.putExtras(params);
                 startActivity(intent);
                 finish();
